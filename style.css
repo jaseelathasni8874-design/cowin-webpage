@@ -1,0 +1,2301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+/* ===============================
+   TOP HEADER
+================================ */
+
+.top-header {
+  background: #155c5d;
+  color: white;
+  padding: 10px 0;
+}
+
+.top-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.ministry {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.ministry-icon {
+  font-size: 25px;
+}
+
+.accessibility {
+  display: flex;
+  gap: 7px;
+  margin-left: auto;
+}
+
+.accessibility button {
+  background: transparent;
+  color: white;
+  border: 1px solid #6c9b9b;
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+
+.language {
+  margin-left: 35px;
+  font-weight: 600;
+}
+
+
+/* ===============================
+   MAIN NAVBAR
+================================ */
+
+.main-navbar {
+  background: #167777;
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cowin-logo {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.cowin-logo .co,
+.cowin-logo .win {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.cowin-logo .plus {
+  color: #ffb703;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cowin-logo small {
+  font-size: 13px;
+  margin-top: 6px;
+  color: #d7eeee;
+}
+
+
+/* Desktop Menu */
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: auto;
+}
+
+.desktop-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.desktop-menu a:hover {
+  color: #bdeaea;
+}
+
+
+/* Right */
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.register-btn {
+  background: transparent;
+  border: 2px solid #d5eeee;
+  color: white;
+  border-radius: 30px;
+  padding: 11px 27px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+/* Mobile dots */
+
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 28px;
+  margin-left: 15px;
+}
+
+
+/* ===============================
+   MOBILE OFFCANVAS
+================================ */
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.offcanvas-body a {
+  text-decoration: none;
+  color: #155c5d;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+
+/* HERO */
+
+.hero-section {
+  min-height: 650px;
+
+  background: #f5f4f1;
+}
+
+
+.hero-content {
+  padding-left: 7%;
+}
+
+
+.hero-content h1 {
+  font-size: 29px;
+
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+
+/* VACCINATION BOX */
+
+.vaccination-box {
+
+  border: 3px solid #f05a28;
+
+  border-radius: 10px;
+
+  padding: 25px;
+
+  margin-top: 45px;
+
+  margin-bottom: 50px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  color: #ed5728;
+
+  font-size: 30px;
+}
+
+
+.icon {
+  background: #197577;
+
+  color: white;
+
+  width: 45px;
+
+  height: 45px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+
+/* QUOTE */
+
+.quote {
+
+  font-size: 25px;
+
+  font-weight: 500;
+
+  margin-bottom: 20px;
+}
+
+
+.pm {
+  font-size: 25px;
+}
+
+
+/* IMAGE */
+
+.india-image {
+
+  max-height: 600px;
+
+  width: auto;
+}
+
+
+/* =========================
+   VACCINATION STATS
+========================= */
+
+.stats-section {
+  background: linear-gradient(
+    90deg,
+    #197577 50%,
+    #22a6a8 50%
+  );
+
+  padding: 28px 0;
+  color: white;
+}
+
+.stats-section h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.view-btn {
+  background-color: #f5b000;
+  color: #222;
+
+  border: 2px solid white;
+  border-radius: 30px;
+
+  padding: 14px 55px;
+  font-weight: bold;
+}
+
+
+/* =========================
+   EASY STEPS SECTION
+========================= */
+
+.easy-steps {
+  background-color: #eaf4f5;
+  padding: 55px 0 0;
+  min-height: 500px;
+}
+
+.easy-steps h1 {
+  color: #176467;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+
+/* CARD */
+
+.step-card {
+  background-color: white;
+
+  border-radius: 15px 15px 0 0;
+
+  position: relative;
+
+  overflow: visible;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* STEP NUMBER */
+
+.step-number {
+  position: absolute;
+
+  top: -20px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background-color: #f5f5f5;
+
+  color: #176467;
+
+  border: 1px solid #176467;
+
+  border-radius: 15px;
+
+  padding: 10px 30px;
+
+  font-weight: bold;
+
+  z-index: 2;
+}
+
+
+/* STEP IMAGE */
+
+.step-image {
+  height: 170px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 25px;
+}
+
+.step-image img {
+  max-height: 130px;
+}
+
+
+/* STEP CONTENT */
+
+.step-content {
+  background-color: #197577;
+
+  color: white;
+
+  text-align: center;
+
+  min-height: 155px;
+
+  padding: 35px 15px 20px;
+}
+
+.step-content p {
+  margin-bottom: 10px;
+
+  font-size: 16px;
+
+  line-height: 1.4;
+}
+
+
+/* ARROWS */
+
+.arrow {
+  color: #198d90;
+
+  font-size: 45px;
+}
+
+/* =========================
+   SEARCH CENTER
+========================= */
+
+.search-center {
+  background: #f5f1f1;
+  padding: 50px 0 80px;
+}
+
+.search-center h1 {
+  color: #176467;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #5f6772;
+  margin-top: 25px;
+}
+
+.login-text {
+  color: #176f71;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+
+/* TABS */
+
+.search-tabs {
+  margin: 30px auto 0;
+  max-width: 1100px;
+  border-bottom: 3px solid #c5cbd0;
+}
+
+.search-tabs .nav-item {
+  width: 33.33%;
+  text-align: center;
+  color: #155e5f;
+}
+
+.search-tabs .nav-link {
+  width: 100%;
+  border: none;
+  color: #3d2b2b;
+  font-size: 26px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.search-tabs .nav-link.active {
+  color: #198d90;
+  background: transparent;
+  border-bottom: 5px solid #198d90;
+}
+
+
+/* SELECT */
+
+.search-select {
+  height: 60px;
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #777;
+}
+
+
+/* SEARCH BUTTON */
+
+.search-btn {
+  height: 55px;
+  border: none;
+  border-radius: 30px;
+  background: #176f71;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   PRECAUTION DOSE
+========================= */
+
+.precaution-section {
+  background: #f5f5f5;
+  padding: 70px 0 0;
+}
+
+.precaution-content {
+  padding-left: 20px;
+}
+
+.precaution-content h1 {
+  color: #176467;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.precaution-content p {
+  color: #606875;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.book-btn {
+  background: #176f71;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+
+/* IMAGE */
+
+.precaution-image {
+  max-height: 400px;
+}
+
+/* =========================
+   REPORT SIDE EFFECT
+========================= */
+
+.report-section {
+  background-color: #e7f3f4;
+  padding: 20px 0;
+}
+
+.report-image {
+  max-height: 280px;
+}
+
+.report-content {
+  padding-left: 30px;
+}
+
+.report-content h1 {
+  color: #176467;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.report-content p {
+  color: #5e6875;
+  font-size: 19px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  max-width: 800px;
+}
+
+.report-btn {
+  background-color: #197577;
+  color: white;
+
+  border: none;
+  border-radius: 30px;
+
+  padding: 15px 60px;
+  font-size: 18px;
+  font-weight: 600;
+
+  margin-top: 15px;
+}
+
+
+/* =========================
+   CHILDREN VACCINATION
+========================= */
+
+.children-section {
+  background-color: #f5f5f5;
+  padding: 55px 0 0;
+  min-height: 420px;
+}
+
+.children-content h1 {
+  color: #176467;
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-bottom: 25px;
+}
+
+
+/* LIST */
+
+.children-content ul {
+  padding-left: 30px;
+}
+
+.children-content li {
+  color: #5e6875;
+
+  font-size: 18px;
+  line-height: 1.7;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 15px;
+
+  padding-left: 5px;
+}
+
+.children-content li::marker {
+  color: #24a6a8;
+  font-size: 25px;
+}
+
+
+/* IMAGE */
+
+.children-image {
+  max-height: 380px;
+}
+
+
+/* =========================
+   VACCINATION DATE CORRECTION
+========================= */
+
+.date-correction-section {
+  background-color: #e7f3f4;
+  padding: 55px 0;
+}
+
+.date-correction-image {
+  max-height: 380px;
+}
+
+.date-correction-content {
+  padding-left: 40px;
+}
+
+.date-correction-content h1 {
+  color: #176467;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.date-correction-content p {
+  color: #5e6875;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  max-width: 800px;
+}
+
+.update-btn {
+  background-color: #197577;
+  color: white;
+
+  border: none;
+  border-radius: 30px;
+
+  padding: 15px 55px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  margin-top: 15px;
+}
+
+
+/* =========================
+   PRECAUTION DOSE
+========================= */
+
+.precaution-dose-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.precaution-dose-content h1 {
+  color: #176467;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.precaution-dose-content ul {
+  padding-left: 30px;
+}
+
+.precaution-dose-content li {
+  color: #5e6875;
+
+  font-size: 18px;
+  line-height: 1.6;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 15px;
+
+  padding-left: 5px;
+}
+
+.precaution-dose-content li::marker {
+  color: #24a6a8;
+  font-size: 25px;
+}
+
+.precaution-dose-image {
+  max-height: 350px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+  .date-correction-content {
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+
+  .date-correction-content h1,
+  .precaution-dose-content h1 {
+    font-size: 30px;
+  }
+
+  .date-correction-section,
+  .precaution-dose-section {
+    text-align: center;
+  }
+
+  .precaution-dose-content ul {
+    text-align: left;
+  }
+
+}
+
+
+/* =========================
+   SHARE VACCINATION STATUS
+========================= */
+
+.share-status-section {
+  background-color: #e7f3f4;
+  padding: 65px 0;
+}
+
+.share-status-image {
+  max-height: 330px;
+}
+
+
+/* CONTENT */
+
+.share-status-content {
+  padding-left: 40px;
+}
+
+.share-status-content h1 {
+  color: #176467;
+
+  font-size: 38px;
+
+  font-weight: 700;
+
+  margin-bottom: 25px;
+}
+
+.share-status-content p {
+  color: #5e6875;
+
+  font-size: 18px;
+
+  line-height: 1.6;
+
+  letter-spacing: 1px;
+
+  max-width: 700px;
+}
+
+
+/* BUTTON */
+
+.share-btn {
+  background-color: #197577;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 30px;
+
+  padding: 15px 55px;
+
+  font-size: 17px;
+
+  font-weight: 600;
+
+  margin-top: 15px;
+
+  transition: 0.3s;
+}
+
+.share-btn:hover {
+  background-color: #125d5f;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+  .share-status-content {
+    padding-left: 15px;
+    padding-top: 30px;
+
+    text-align: center;
+  }
+
+  .share-status-content h1 {
+    font-size: 30px;
+  }
+
+}
+
+
+/* =========================
+   ABHA SECTION
+========================= */
+
+.abha-section {
+  background-color: #ffffff;
+  padding: 55px 0 70px;
+}
+
+.abha-section h1 {
+  color: #087f82;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.abha-description {
+  color: #5e6675;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+
+/* VIDEO CARD */
+
+.abha-card {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.abha-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* PLAY BUTTON */
+
+.play-button {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 46px;
+  height: 46px;
+
+  background-color: #222;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+}
+
+
+/* KNOW MORE BUTTON */
+
+.know-more-btn {
+  background-color: #07888a;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 30px;
+
+  padding: 16px 60px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.know-more-btn:hover {
+  background-color: #066e70;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .abha-section h1 {
+    font-size: 30px;
+  }
+
+  .abha-description {
+    font-size: 16px;
+  }
+
+  .abha-card img {
+    height: 220px;
+  }
+
+}
+
+/* =========================
+   RAISE AN ISSUE
+========================= */
+
+.issue-section {
+  background-color: #087f80;
+  color: white;
+  padding: 45px 0 55px;
+}
+
+.issue-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.issue-subtitle {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+
+/* ISSUE CARDS */
+
+.issue-card {
+  background-color: white;
+  color: #333;
+
+  border-radius: 12px;
+
+  padding: 25px 30px;
+
+  min-height: 145px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.issue-card h5 {
+  color: #087f80;
+  font-size: 17px;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+.issue-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   FAQ SECTION
+========================= */
+
+.faq-section {
+  background-color: white;
+  padding: 45px 0 70px;
+}
+
+.faq-title {
+  color: #087f80;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+/* DOWNLOAD BUTTON */
+
+.download-btn {
+  background-color: white;
+
+  color: #087f80;
+
+  border: 2px solid #087f80;
+
+  border-radius: 30px;
+
+  padding: 13px 55px;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+/* FAQ TABS */
+
+.faq-tabs {
+  border-bottom: 2px solid #b9d6d7;
+
+  background-color: #e7f8f8;
+
+  border-radius: 25px 25px 0 0;
+
+  overflow-x: auto;
+
+  flex-wrap: nowrap;
+}
+
+.faq-tabs .nav-item {
+  flex-shrink: 0;
+}
+
+.faq-tabs .nav-link {
+  color: #087f80 !important;
+
+  border: none !important;
+
+  padding: 15px 25px;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  background: transparent;
+}
+
+.faq-tabs .nav-link.active {
+  border-bottom: 4px solid #087f80 !important;
+
+  color: #087f80 !important;
+
+  background: transparent;
+}
+
+
+/* ACCORDION */
+
+.accordion-item {
+  border: none;
+
+  margin-bottom: 8px;
+
+  background-color: #f7f7f7;
+}
+
+.accordion-button {
+  background-color: #f7f7f7;
+
+  font-size: 17px;
+
+  font-weight: 600;
+
+  color: #222;
+
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f7f7f7;
+
+  color: #087f80;
+}
+
+.accordion-body {
+  color: #5e6875;
+
+  line-height: 1.6;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+  .faq-title {
+    font-size: 30px;
+  }
+
+  .faq-tabs .nav-link {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+}
+
+/* =========================
+   FAQ SECTION
+========================= */
+
+.faq-section {
+  background-color: #ffffff;
+  padding: 45px 0 65px;
+}
+
+.faq-title {
+  color: #078184;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+
+/* DOWNLOAD BUTTON */
+
+.download-btn {
+  width: 250px;
+  height: 60px;
+
+  background-color: white;
+  color: #078184;
+
+  border: 2px solid #078184;
+  border-radius: 35px;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.download-btn i {
+  margin-right: 8px;
+}
+
+
+/* FAQ IMAGE */
+
+.faq-image-box {
+  margin-top: 45px;
+}
+
+.faq-image-box img {
+  width: 320px;
+  max-width: 100%;
+}
+
+
+/* =========================
+   CATEGORY BAR
+========================= */
+
+.faq-category {
+  height: 60px;
+
+  background-color: #e8fafa;
+
+  border-bottom: 3px solid #b7dddd;
+
+  border-radius: 30px 30px 0 0;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+/* CATEGORY BUTTON */
+
+.category-btn {
+  height: 60px;
+
+  border: none;
+  background: transparent;
+
+  color: #078184;
+
+  padding: 0 25px;
+
+  font-size: 17px;
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+.category-btn.active {
+  border-bottom: 5px solid #078184;
+}
+
+
+/* ARROWS */
+
+.arrow-btn {
+  min-width: 50px;
+  height: 60px;
+
+  border: none;
+
+  background: transparent;
+
+  color: #555;
+
+  font-size: 20px;
+}
+
+
+/* =========================
+   FAQ QUESTIONS
+========================= */
+
+.faq-list {
+  margin-top: 35px;
+
+  background-color: #f6f6f6;
+
+  max-height: 360px;
+
+  overflow-y: auto;
+}
+
+
+/* Individual item */
+
+.faq-item {
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+/* Question */
+
+.faq-question {
+  width: 100%;
+
+  min-height: 60px;
+
+  padding: 15px 25px;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f6f6f6;
+
+  border: none;
+
+  text-align: left;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  color: #171717;
+}
+
+.faq-question:hover {
+  background-color: #eeeeee;
+}
+
+.faq-question i {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+
+/* ANSWER */
+
+.faq-answer {
+  padding: 15px 25px 20px;
+
+  background-color: #ffffff;
+
+  color: #5e6875;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+  .faq-title {
+    font-size: 30px;
+  }
+
+  .faq-image-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .faq-category {
+    overflow-x: auto;
+  }
+
+  .category-btn {
+    font-size: 14px;
+    padding: 0 18px;
+  }
+
+  .faq-question {
+    font-size: 15px;
+  }
+
+}
+
+/* =========================
+   WHAT'S NEW SECTION
+========================= */
+
+.whats-new-section {
+  background-color: #e9fafa;
+  padding: 55px 0 65px;
+}
+
+.whats-new-title {
+  color: #087f82;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+
+/* NEWS CARD */
+
+.news-card {
+  position: relative;
+
+  min-height: 150px;
+
+  background-color: #f7f7f7;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+
+  align-items: flex-start;
+
+  padding: 22px 25px 35px 85px;
+}
+
+
+/* DATE */
+
+.news-date {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 75px;
+  height: 92px;
+
+  background-color: #087f82;
+
+  color: white;
+
+  font-size: 25px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  clip-path: polygon(
+    0 0,
+    72% 0,
+    100% 50%,
+    72% 100%,
+    0 100%
+  );
+}
+
+
+/* TEXT */
+
+.news-text {
+  color: #087f82;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  line-height: 1.6;
+
+  padding-right: 15px;
+}
+
+
+/* DOWN ARROW */
+
+.news-arrow {
+  position: absolute;
+
+  bottom: 8px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  color: #111;
+
+  font-size: 12px;
+}
+
+
+/* RIGHT IMAGE */
+
+.new-features-image {
+  border-left: 6px solid #087f82;
+
+  padding-left: 30px;
+}
+
+.new-features-image img {
+  max-height: 320px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+  .whats-new-title {
+    font-size: 30px;
+  }
+
+  .new-features-image {
+    border-left: none;
+    margin-top: 35px;
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .news-text {
+    font-size: 15px;
+  }
+
+  .news-card {
+    padding-left: 75px;
+  }
+
+}
+
+
+/* =========================
+   VACCINATION DRIVE
+========================= */
+
+.vaccination-drive-section {
+  background-color: #ffffff;
+
+  padding: 40px 0 70px;
+
+  min-height: 600px;
+}
+
+
+/* HEADING */
+
+.vaccination-title {
+  color: #087f82;
+
+  font-size: 38px;
+
+  font-weight: 700;
+
+  margin-bottom: 40px;
+}
+
+
+/* STAT BOX */
+
+.stat-box {
+  margin-bottom: 30px;
+
+  width: 350px;
+
+  max-width: 100%;
+}
+
+.stat-box h6 {
+  color: #00a1a4;
+
+  font-size: 17px;
+
+  font-weight: 600;
+
+  margin-bottom: 8px;
+}
+
+
+/* STAT VALUE */
+
+.stat-value {
+  background-color: #087f82;
+
+  color: white;
+
+  min-height: 52px;
+
+  border-radius: 5px;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 0 15px;
+
+  font-size: 18px;
+
+  gap: 12px;
+}
+
+.stat-value strong {
+  font-size: 25px;
+}
+
+
+/* INDIA MAP */
+
+.india-map {
+  width: 350px;
+
+  max-width: 100%;
+
+  max-height: 430px;
+
+  object-fit: contain;
+}
+
+
+/* DASHBOARD BUTTON */
+
+.dashboard-btn {
+  background-color: white;
+
+  color: #087f82;
+
+  border: 2px solid #087f82;
+
+  border-radius: 35px;
+
+  padding: 16px 40px;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  min-width: 330px;
+}
+
+.dashboard-btn:hover {
+  background-color: #087f82;
+
+  color: white;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+  .vaccination-title {
+    font-size: 30px;
+  }
+
+  .stat-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .india-map {
+    margin: 30px 0;
+  }
+
+  .dashboard-btn {
+    min-width: auto;
+
+    width: 100%;
+
+    max-width: 350px;
+  }
+
+}
+
+
+/* =========================
+   OUR PARTNERS SECTION
+========================= */
+
+.partners-section {
+  background: #e8f8fb;
+  padding: 50px 0 60px;
+}
+
+.partners-title {
+  color: #176f73;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+/* LEFT IMAGE */
+
+.partners-image {
+  max-height: 320px;
+}
+
+
+/* PARTNER CARD */
+
+.partner-card {
+  height: 80px;
+
+  background: #fff;
+
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px;
+
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.partner-card img {
+  max-height: 45px;
+  max-width: 150px;
+}
+
+
+/* BUTTONS */
+
+.partner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+
+  margin-top: 55px;
+}
+
+
+.view-more-btn,
+.register-partner-btn {
+  min-width: 255px;
+
+  padding: 16px 30px;
+
+  border-radius: 35px;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+/* VIEW MORE */
+
+.view-more-btn {
+  background: #08787b;
+
+  color: white;
+
+  border: none;
+}
+
+
+/* REGISTER */
+
+.register-partner-btn {
+  background: transparent;
+
+  color: #176f73;
+
+  border: 2px solid #08787b;
+}
+
+
+.view-more-btn:hover {
+  background: #065e60;
+}
+
+
+.register-partner-btn:hover {
+  background: #08787b;
+  color: white;
+}
+
+
+/* =================
+   RESPONSIVE
+================= */
+
+@media (max-width: 991px) {
+
+  .partners-image {
+    margin-bottom: 35px;
+  }
+
+  .partner-buttons {
+    margin-top: 35px;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+
+  .partners-title {
+    font-size: 30px;
+  }
+
+  .partner-buttons {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+  }
+
+  .view-more-btn,
+  .register-partner-btn {
+    width: 100%;
+    min-width: auto;
+  }
+
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+  background: #197477;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+/* TOP FOOTER */
+
+.footer-top {
+  padding: 40px 22px 45px;
+}
+
+
+/* Footer Heading */
+
+.footer-column h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #b9d0d1;
+  margin-bottom: 10px;
+}
+
+
+/* Small Line */
+
+.footer-line {
+  width: 28px;
+  height: 5px;
+  background: #8ccfd0;
+  margin-bottom: 25px;
+}
+
+
+/* Footer Text */
+
+.footer-column p {
+  font-size: 15px;
+  margin-bottom: 17px;
+  color: #f1f1f1;
+}
+
+
+/* Contact Divider */
+
+.footer-column hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin-top: 30px;
+}
+
+
+/* Support Numbers */
+
+.support-numbers {
+  margin-top: 20px;
+}
+
+
+.support-numbers strong {
+  color: #b9d0d1;
+  font-size: 16px;
+}
+
+
+.support-numbers p {
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+
+/* ================= BOTTOM FOOTER ================= */
+
+.footer-bottom {
+  background: #124e52;
+
+  min-height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 22px;
+}
+
+
+/* Copyright */
+
+.copyright {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/* Footer Logos */
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.footer-logos img {
+  max-height: 55px;
+  max-width: 110px;
+}
+
+
+/* Footer Links */
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-size: 15px;
+}
+
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background: #9ac4c5;
+}
+
+
+/* ================= SCROLL TOP ================= */
+
+.scroll-top {
+
+  position: fixed;
+
+  right: 20px;
+  bottom: 20px;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+
+  background: #124e52;
+  color: white;
+
+  border-radius: 4px;
+
+  font-size: 24px;
+
+  cursor: pointer;
+
+  z-index: 999;
+
+}
+
+
+.scroll-top:hover {
+  background: #197477;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+  .footer-column {
+    margin-bottom: 35px;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+
+  .footer-top {
+    padding: 30px 20px;
+  }
+
+
+  .footer-column p {
+    font-size: 14px;
+  }
+
+
+  .support-numbers .col-3 {
+    margin-bottom: 20px;
+  }
+
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+
+/* ==========================================
+   RESPONSIVE NAVBAR - FINAL
+========================================== */
+
+/* TOP HEADER */
+
+.top-header {
+  background: #155c5d;
+  color: white;
+  padding: 8px 0;
+}
+
+.top-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ministry {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ministry-icon {
+  font-size: 25px;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.accessibility {
+  display: flex;
+  gap: 7px;
+}
+
+.accessibility button {
+  background: transparent;
+  color: white;
+  border: 1px solid #77a7a7;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 16px;
+}
+
+.language {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+/* ==========================================
+   MAIN NAVBAR
+========================================== */
+
+.main-navbar {
+  background: #197777;
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* LOGO */
+
+.cowin-logo {
+  color: white;
+  text-decoration: none;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.cowin-logo .co,
+.cowin-logo .win {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.cowin-logo .plus {
+  color: #ffb703;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.cowin-logo small {
+  display: block;
+  font-size: 13px;
+  color: #d5eeee;
+  margin-top: 7px;
+}
+
+
+/* DESKTOP MENU */
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-left: auto;
+}
+
+.desktop-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+}
+
+.desktop-menu a:hover {
+  color: #bdeaea;
+}
+
+
+/* RIGHT SIDE */
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.register-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid #d7eeee;
+  border-radius: 30px;
+  padding: 11px 28px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+/* THREE DOT BUTTON */
+
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  line-height: 1;
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 1199px) {
+
+  .desktop-menu {
+    gap: 20px;
+  }
+
+  .desktop-menu a {
+    font-size: 12px;
+  }
+
+  .navbar-right {
+    margin-left: 20px;
+  }
+
+  .register-btn {
+    padding: 10px 20px;
+  }
+
+}
+
+
+/* ==========================================
+   MOBILE / TABLET NAVBAR
+========================================== */
+
+@media (max-width: 991px) {
+
+  /* TOP HEADER */
+
+  .top-header {
+    padding: 9px 15px;
+  }
+
+  .top-header-inner {
+    width: 100%;
+  }
+
+
+  /* Hide accessibility buttons */
+
+  .accessibility {
+    display: none;
+  }
+
+
+  /* Show only language */
+
+  .top-right {
+    margin-left: auto;
+  }
+
+
+  .language {
+    font-size: 16px;
+  }
+
+
+  /* MAIN NAVBAR */
+
+  .main-navbar {
+    min-height: 82px;
+    padding: 10px 0;
+  }
+
+
+  .navbar-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  /* Hide desktop menu */
+
+  .desktop-menu {
+    display: none;
+  }
+
+
+  /* Right side */
+
+  .navbar-right {
+    margin-left: auto;
+  }
+
+
+  /* Show dots */
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+
+  .register-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width: 576px) {
+
+  .top-header {
+    padding: 8px 10px;
+  }
+
+
+  .ministry {
+    font-size: 13px;
+  }
+
+
+  .ministry-icon {
+    font-size: 21px;
+  }
+
+
+  .language {
+    font-size: 14px;
+  }
+
+
+  .main-navbar {
+    min-height: 78px;
+  }
+
+
+  .cowin-logo .co,
+  .cowin-logo .win {
+    font-size: 30px;
+  }
+
+
+  .cowin-logo .plus {
+    font-size: 18px;
+  }
+
+
+  .cowin-logo small {
+    font-size: 11px;
+  }
+
+
+  .register-btn {
+    padding: 9px 16px;
+    font-size: 12px;
+  }
+
+
+  .mobile-menu-btn {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+
+}
